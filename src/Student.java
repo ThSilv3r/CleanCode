@@ -22,32 +22,18 @@ public class Student {
 
     public void setMatrikelNrAndFirstName(Integer matrikelNr,String firstname) { this.matrikelNr = matrikelNr;this.firstname  = firstname; }
 
-    public String getFirstname() {
-        return firstname;
-    }
+    public String getFirstname() { return firstname; }
 
-    public String getLastname() {
-        return lastname;
-    }
+    public String getLastname() { return lastname; }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
+    public void setLastname(String lastname) { this.lastname = lastname; }
 
-    public String getKurs() {
-        return kurs;
-    }
+    public String getKurs() { return kurs; }
 
-    public void setKurs(String kurs) {
-        this.kurs = kurs;
-    }
+    public void setKurs(String kurs) { this.kurs = kurs; }
 
-    public Integer getSemester(){
-        return semester;
-    }
+    public Integer getSemester(){ return semester; }
 
-    public void setSemester(Integer semester) {
-        this.semester = semester;
-    }
+    public void setSemester(Integer semester) { this.semester = semester; }
 
 }
